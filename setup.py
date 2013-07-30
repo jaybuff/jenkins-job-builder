@@ -29,7 +29,7 @@ setuptools.setup(
     author_email='openstack@lists.launchpad.net',
     description='Manage Jenkins jobs with YAML',
     license='Apache License, Version 2.0',
-    url='https://github.com/openstack-ci/jenkins-job-builder',
+    url='https://github.com/openstack-infra/jenkins-job-builder',
     packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
     include_package_data=True,
     cmdclass=setup.get_cmdclass(),
